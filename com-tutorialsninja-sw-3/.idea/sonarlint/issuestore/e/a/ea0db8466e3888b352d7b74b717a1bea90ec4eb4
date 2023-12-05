@@ -1,0 +1,5 @@
+
+G	java:S1065"+Replace this use of System.out by a logger.(§ğÊÁ8²ŸÈÑÃ1
+^	java:S125…"<This block of commented-out lines of code should be removed.(ëÎêëùÿÿÿÿ8è ìİÃ1
+M
+java:S5960."+Remove this assertion from production code.(Î×æùÿÿÿÿ8ÕêÌÑÃ1

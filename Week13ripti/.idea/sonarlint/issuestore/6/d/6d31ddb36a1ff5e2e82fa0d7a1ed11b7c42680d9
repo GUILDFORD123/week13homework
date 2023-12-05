@@ -1,0 +1,15 @@
+
+r	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸŽãðÿÿÿÿÿ8ŽÊ÷×Ã1
+Y
+java:S1854G"<Remove this useless assignment to local variable "expected".(º½Ú€8®Úø×Ã1
+b
+java:S1854,"@Remove this useless assignment to local variable "Actualresult".(ŸŽãðÿÿÿÿÿ8¡Ê÷×Ã1
+S
+java:S1481,"1Remove this unused "Actualresult" local variable.(ŸŽãðÿÿÿÿÿ8¤Ê÷×Ã1
+X	java:S125-"<This block of commented-out lines of code should be removed.(ýÍ…é8¤Ê÷×Ã1
+]	java:S125:"<This block of commented-out lines of code should be removed.(Ýý®ƒûÿÿÿÿ8¥Ê÷×Ã1
+G	java:S106F"+Replace this use of System.out by a logger.(âÙ£Ô8§Ê÷×Ã1
+J
+java:S1481G"-Remove this unused "expected" local variable.(º½Ú€8½Úø×Ã1
+]	java:S125H"<This block of commented-out lines of code should be removed.(ŽÞžÛúÿÿÿÿ8½Úø×Ã1
+]	java:S125N"<This block of commented-out lines of code should be removed.(ëÎêëùÿÿÿÿ8¨Ê÷×Ã1

@@ -1,0 +1,17 @@
+
+~
+java:S1192"aDefine a constant instead of duplicating this literal "//ul[@class='list-inline']/li[2]" 3 times.(ßëòØ8‚öÿÌÃ1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã²üà8ğ›öÌÃ1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¾¯ùÿÿÿÿ8ğ›öÌÃ1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜’˜¬ûÿÿÿÿ8ğ›öÌÃ1
+r	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬‚ôÿÿÿÿÿ8ğ›öÌÃ1
+r	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıŞŒïıÿÿÿÿ8ğ›öÌÃ1
+r	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¾¯ùÿÿÿÿ8ğ›öÌÃ1
+r	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı‚øáøÿÿÿÿ8ğ›öÌÃ1
+X	java:S125"<This block of commented-out lines of code should be removed.(¡™È 8¤æ‚ÍÃ1
+L	java:S106"+Replace this use of System.out by a logger.(İˆóàıÿÿÿÿ8‰œöÌÃ1
+L	java:S106)"+Replace this use of System.out by a logger.(İˆóàıÿÿÿÿ8ŒœöÌÃ1
+X	java:S1252"<This block of commented-out lines of code should be removed.(«·ò8äÂ™ÍÃ1
+L	java:S106?"+Replace this use of System.out by a logger.(İˆóàıÿÿÿÿ8œöÌÃ1
+H
+java:S5960 "+Remove this assertion from production code.(ÊË§8œöÌÃ1
