@@ -37,7 +37,7 @@ public class TopMenutest extends BaseTest{
         seleect.click();
         Select select = new Select(seleect);
         select.selectByIndex(1);
-        Thread.sleep(1000);
+        Thread.sleep(3000);
       WebElement cart= driver.findElement(By.xpath("//div[@class='item-grid']/div[1]/div/div[2]/div[3]/div[2]/button[1]"));
       cart.click();
         Thread.sleep(1000);
@@ -65,11 +65,56 @@ public class TopMenutest extends BaseTest{
        price.click();
         WebElement add = driver.findElement(By.id("add-to-cart-button-1"));
        add.click();
-       Thread.sleep(2000);
-        String acrualtext = driver.findElement(By.xpath("//div[@class='bar-notification success']")).getText();
+       Thread.sleep(7000);
+        String acrualtext = driver.findElement(By.id("add-to-cart-button-1")).getText();
         System.out.println(acrualtext);
-       String expected  = "The product has been added to your shopping cart";
+      String expected  = "The product has been added to your shopping cart";
         //Assert.assertEquals(acrualtext,expected);
+        //After that close the bar clicking on the cross button.
+        WebElement cross = driver.findElement(By.xpath("//div[@class='add-to-cart']/div"));
+        cross.click();
+        Thread.sleep(1000);
+        //2.14 Then MouseHover on "Shopping cart" and Click on "GO TO CART" button.
+        WebElement shopping =driver.findElement(By.xpath("//div[@class='bar-notification success']/p/a"));
+        shopping.click();
+        String actual= driver.findElement(By.xpath("//h1[text()='Shopping cart']")).getText();
+        System.out.println(acrualtext);
+        String exp = "Shopping cart";
+        //2.16 Change the Qty to "2" and Click on "Update shopping cart"
+        WebElement qty = driver.findElement(By.id("updatecart"));
+        qty.click();
+        //Verify the Total"$2,950.00"
+        String actu = driver.findElement(By.xpath("//span[@class='value-summary']/strong")).getText();
+        System.out.println(actu);
+        String expts ="$2,940.00";
+//2.18 click on checkbox “I agree with the terms of service”
+        WebElement tick = driver.findElement(By.id("termsofservice"));
+        tick.click();
+        //2.19 Click on “CHECKOUT”
+        WebElement checkout = driver.findElement(By.id("checkout"));
+        checkout.click();
+        //2.20 Verify the Text “Welcome, Please Sign In!”
+        String actual1 = driver.findElement(By.xpath("//div[@class='page-title']/h1")).getText();
+        String expected1="Welcome, Please Sign In!";
+        System.out.println(actual1);
+      //2.21Click on “CHECKOUT AS GUEST” Tab
+        WebElement guest = driver.findElement(By.xpath("//div[@class='new-wrapper checkout-as-guest-or-register-block']/div[3]/button"));
+        guest.click();
+        //2.22 Fill the all mandatory field
+        driver.findElement(By.id("BillingNewAddress_FirstName")).sendKeys("rip"); //FIRST
+        driver.findElement(By.id("BillingNewAddress_LastName")).sendKeys("pat"); //last
+        driver.findElement(By.id("BillingNewAddress_Email")).sendKeys("rippat@yahoo.com"); //email
+        driver.findElement(By.id("BillingNewAddress_CountryId")).sendKeys("United State"); //country
+        driver.findElement(By.id("BillingNewAddress_City")).sendKeys("Canton"); //city
+        driver.findElement(By.id("BillingNewAddress_Address1")).sendKeys("16 cantburt road"); //add1
+        driver.findElement(By.id("BillingNewAddress_ZipPostalCode")).sendKeys("098765"); //zip
+        driver.findElement(By.id("BillingNewAddress_PhoneNumber")).sendKeys("0123456789"); //tel
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//div[@id=\"checkout-step-billing\"]/div/button[4]")).click();
+
+
+
+
 
     }
 @After

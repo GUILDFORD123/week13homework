@@ -1,0 +1,24 @@
+
+h
+java:S1192Q"FDefine a constant instead of duplicating this literal "input" 4 times.(ßŸ§Åýÿÿÿÿ8¸¶˜ŠÄ1
+j
+java:S1192>"HDefine a constant instead of duplicating this literal "ripti10" 3 times.(Š¥›•ûÿÿÿÿ8¹¶˜ŠÄ1
+\
+java:S18545":Remove this useless assignment to local variable "actual".(×¤³šÿÿÿÿÿ8Ì¶˜ŠÄ1
+M
+java:S14815"+Remove this unused "actual" local variable.(×¤³šÿÿÿÿÿ8Ð¶˜ŠÄ1
+G	java:S1067"+Replace this use of System.out by a logger.(ÛöÐ‰8Ñ¶˜ŠÄ1
+X	java:S1258"<This block of commented-out lines of code should be removed.(ëŠßŒ8Ñ¶˜ŠÄ1
+]	java:S125B"<This block of commented-out lines of code should be removed.(¶õ¸Žûÿÿÿÿ8Ò¶˜ŠÄ1
+X	java:S125F"<This block of commented-out lines of code should be removed.(½¡ž8Ó¶˜ŠÄ1
+_
+java:S1854Y"=Remove this useless assignment to local variable "actualres".(”ì‚»øÿÿÿÿ8Ó¶˜ŠÄ1
+P
+java:S1481Y".Remove this unused "actualres" local variable.(”ì‚»øÿÿÿÿ8Ô¶˜ŠÄ1
+F	java:S106["+Replace this use of System.out by a logger.(Ã’R8Ô¶˜ŠÄ1
+Z
+java:S1854l"=Remove this useless assignment to local variable "actualres".(´‰ßÇ8Õ¶˜ŠÄ1
+X	java:S125i"<This block of commented-out lines of code should be removed.(¸ÝŠ8Ö¶˜ŠÄ1
+K
+java:S1481l".Remove this unused "actualres" local variable.(´‰ßÇ8Ö¶˜ŠÄ1
+F	java:S106n"+Replace this use of System.out by a logger.(Ã’R8Ö¶˜ŠÄ1

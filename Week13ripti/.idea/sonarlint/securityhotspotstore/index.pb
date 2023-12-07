@@ -7,3 +7,5 @@ J
 src/homepage/BaseTest.java,1\6\1694141a217cbebfcb36e24823b4f4ecd867303a
 K
 src/computer/TestSuite.java,d\d\dd197b71eb5bf818ef4fc4f8ec680b3fa1c26525
+T
+$src/electronics/ElectronicsTest.java,9\9\9901631b0a053cdd4cc4375e28553456aa6ee3a8
